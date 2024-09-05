@@ -1,44 +1,78 @@
-<!DOCTYPE html>
-<!-- saved from url=(0064)file:///C:/Users/PET0086143/Downloads/exs%20parallelo/index.html -->
-<html lang="pt-br"><!--linguagem--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <!--indica qual a lógica binária foi utilizada para armazenar letras e números dentro de bits-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--largura do dispositivo-->
-    <title>Parallelo Arquitetura e Construção</title><!--Titulo do site-->
-    <link rel="stylesheet" href="./Parallelo Arquitetura e Construção_files/estilo.css"><!--rel é especifica o tipo de relação que existe entre o link e a página de destino.-->
-</head><!--providencia informações gerais (metadados) sobre o documento, incluindo seu título e links para scripts e folhas de estilos.-->
-<body><!--estrutura do site-->
-    <nav><!--representa uma seção de uma página que aponta para outras páginas ou para outras áreas da página, ou seja, uma seção com links de navegação.-->
-        <div id="logo"><!--  o div id é um contêiner genérico usado para agrupar elementos de conteúdo e aplicar estilos ou scripts a eles.-->
-            <a href="file:///C:/Users/PET0086143/Downloads/exs%20parallelo/index.html"><!--fazer referência a uma URL externa-->
-                <img src="./Parallelo Arquitetura e Construção_files/logo-white.png"><!--representa a inserção de imagem no documento-->
-            </a>
-        </div>
-        <div id="main-menu">
-        <ul>
-            <li>
-                <a href="file:///C:/Users/PET0086143/Downloads/exs%20parallelo/index.html#">Home</a>
-            </li>
-            <li>
-                <a href="file:///C:/Users/PET0086143/Downloads/exs%20parallelo/index.html#">Trabalho</a>
-            </li>
-            <li>
-                <a href="file:///C:/Users/PET0086143/Downloads/exs%20parallelo/index.html#">Scaneamento</a>
-            </li>
-            <li>
-                <a href="file:///C:/Users/PET0086143/Downloads/exs%20parallelo/index.html#">Sobre</a>
-            </li>
-            <li>
-                <a href="file:///C:/Users/PET0086143/Downloads/exs%20parallelo/index.html#">Lançamento</a>
-            </li>
-            <li>
-                <a href="file:///C:/Users/PET0086143/Downloads/exs%20parallelo/index.html#">Contato</a>
-            </li>
-        </ul>
-        </div>
-    </nav>
-    <header>
-        <img src="./Parallelo Arquitetura e Construção_files/project-1.jpg" width="100%"><!--representa a inserção de imagem no documento-->
-    </header>
-    
+<!doctype html>
+<html lang="pt-br"> <!-- Define o tipo de documento como HTML5 e o idioma da página como português do Brasil -->
+    <head>
+        <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 para suportar caracteres especiais -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura a visualização para dispositivos móveis, ajustando a largura da página para a largura da tela e a escala inicial para 1 -->
+        <title> Parallelo Arquitetura e Construção</title> <!-- Define o título da página que aparece na aba do navegador -->
 
-</body></html>
+        <!-- Importação de conteúdos -->
+        <link rel="stylesheet" href="css/estilo.css"> <!-- Link para o arquivo de estilo CSS externo -->
+        <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Estabelece uma conexão antecipada com o domínio das fontes do Google para melhorar o desempenho -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Estabelece uma conexão antecipada com o domínio de fontes do Google com suporte a CORS (Cross-Origin Resource Sharing) -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> <!-- Importa a fonte Montserrat do Google Fonts -->
+    </head> <!-- Fecha a seção do cabeçalho -->
+
+    <body>
+        <nav> <!-- Seção de navegação do site -->
+            <div id="main-menu-geral"> <!-- Contêiner principal do menu -->
+                <div id="logo"> <!-- Seção do logo -->
+                    <a href="index.html"> <!-- Link para a página inicial -->
+                        <img src="img/logo-white.png" alt="Logo"> <!-- Imagem do logo -->
+                    </a>
+                </div>
+                <div id="main-menu"> <!-- Contêiner da lista de itens de navegação -->
+                    <ul> <!-- Início da lista de navegação -->
+                        <li>
+                            <span>01. </span> <!-- Número de ordem para o item do menu -->
+                            <a href="#">Home</a> <!-- Link para a página Home -->
+                        </li>
+                        <li>
+                            <span>02. </span> <!-- Número de ordem para o item do menu -->
+                            <a href="#">Trabalhos</a> <!-- Link para a página Trabalhos -->
+                        </li>
+                        <li>
+                            <span>03. </span> <!-- Número de ordem para o item do menu -->
+                            <a href="#">Scaneamento</a> <!-- Link para a página Scaneamento -->
+                        </li>
+                        <li>
+                            <span>04. </span> <!-- Número de ordem para o item do menu -->
+                            <a href="#">Sobre</a> <!-- Link para a página Sobre -->
+                        </li>
+                        <li>
+                            <span>05. </span> <!-- Número de ordem para o item do menu -->
+                            <a href="#">Lançamentos</a> <!-- Link para a página Lançamentos -->
+                        </li>
+                        <li>
+                            <span>06. </span> <!-- Número de ordem para o item do menu -->
+                            <a href="#">Contato</a> <!-- Link para a página Contato -->
+                        </li>
+                    </ul> <!-- Fim da lista de navegação -->
+                </div>
+            </div>
+        </nav>
+        <header> <!-- Início da seção de cabeçalho -->
+            <img class="slide" src="img/slidebg1.jpg" width="100%" alt="Imagem de slide"> <!-- Imagem de fundo do cabeçalho, ocupando toda a largura da tela -->
+            <div id="slide-bar"> <!-- Contêiner para o conteúdo do slide -->
+                <div id="txt.slide"> <!-- Texto do slide -->
+                    Projeto
+                </div>
+                <div id="titulo_slide"> <!-- Título do slide -->
+                    <h4>Lean Production</h4> <!-- Título exibido no slide -->
+                </div>
+                <div class="seta esquerda"> <!-- Botão de seta para a esquerda -->
+                    <a href="#"> <!-- Link para navegar para o slide anterior -->
+                        <img src="img/arrow-left.png" alt="Seta para a esquerda"> <!-- Imagem da seta para a esquerda -->
+                    </a>
+                </div>
+                <div class="seta direita"> <!-- Botão de seta para a direita -->
+                    <a href="#"> <!-- Link para navegar para o próximo slide -->
+                        <img src="img/arrow-right.png" alt="Seta para a direita"> <!-- Imagem da seta para a direita -->
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="separador">
+
+        </div>
+    </body>
+</html>
